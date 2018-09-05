@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RelativeLayout">
+
+    <ImageView
+        android:id="@+id/Fishermall"
+        android:layout_width="match_parent"
+        android:layout_height="288dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="0dp"
+        android:adjustViewBounds="true"
+        android:contentDescription="Fisher Mall"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/fish" />
+
+    <TextView
+        android:id="@+id/Title2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/Label"
+        android:layout_centerHorizontal="true"
+        android:text="Fisher Mall"
+        android:textSize="24sp"
+        android:typeface="sans"
+        tools:fontFamily="casual" />
+
+    <TextView
+        android:id="@+id/Location"
+        android:layout_width="248dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/Label"
+        android:layout_alignParentEnd="true"
+        android:gravity="center"
+        android:text="Quezon Ave, Quezon City, Metro Manila"
+        android:textSize="12sp"
+        android:typeface="sans"
+        app:fontFamily="casual" />
+
+    <TextView
+        android:id="@+id/Label"
+        android:layout_width="65dp"
+        android:layout_height="36dp"
+        android:layout_alignEnd="@+id/back"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="147dp"
+        android:gravity="center"
+        android:text="Location:"
+        android:typeface="sans"
+        tools:fontFamily="casual" />
+
+    <TextView
+        android:id="@+id/Distance"
+        android:layout_width="245dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/Label3"
+        android:layout_alignParentEnd="true"
+        android:gravity="center"
+        android:text="15 min (4.9 km) via Quezon Ave/R-7"
+        android:textSize="12sp"
+        android:typeface="sans" />
+
+    <TextView
+        android:id="@+id/Label3"
+        android:layout_width="94dp"
+        android:layout_height="43dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/back"
+        android:layout_marginBottom="88dp"
+        android:layout_marginStart="0dp"
+        android:gravity="center"
+        android:text="Distance from UST:"
+        android:typeface="sans"
+        app:fontFamily="casual"
+        tools:fontFamily="casual" />
+
+    <Button
+        android:id="@+id/next"
+        android:layout_width="74dp"
+        android:layout_height="37dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/back"
+        android:layout_marginEnd="18dp"
+        android:text="Next" />
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="75dp"
+        android:layout_height="37dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="13dp"
+        android:layout_marginStart="13dp"
+        android:text="Back" />
+
+</RelativeLayout>

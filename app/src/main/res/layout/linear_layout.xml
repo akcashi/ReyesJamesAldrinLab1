@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"><![CDATA[
+    tools:context=".MainActivity">
+
+
+
+
+
+    ]]>
+
+    <ImageView
+        android:id="@+id/Hospital"
+        android:layout_width="match_parent"
+        android:layout_height="288dp"
+        android:adjustViewBounds="true"
+        android:contentDescription="St. Luke's Hospital"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/lukes" />
+
+    <TextView
+        android:id="@+id/Title3"
+        android:layout_width="match_parent"
+        android:layout_height="258dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="St. Luke's Medical Center"
+        android:textSize="24sp"
+        tools:fontFamily="casual" />
+
+    <LinearLayout
+        android:layout_marginBottom="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/Label5"
+            android:layout_width="wrap_content"
+            android:layout_height="42dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Location:"
+            android:typeface="sans"
+            app:fontFamily="serif" />
+
+        <TextView
+            android:id="@+id/Location3"
+            android:layout_width="258dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="279 E Rodriguez Sr. Ave, Quezon City, 1112 Metro Manila"
+            android:textSize="12sp"
+            android:typeface="sans"
+            app:fontFamily="serif" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="79dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/Label6"
+            android:layout_width="12dp"
+            android:layout_height="32dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Distance from UST:"
+            android:typeface="sans"
+            app:fontFamily="serif" />
+
+        <TextView
+            android:id="@+id/Distance3"
+            android:layout_width="204dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="11 min (4.4 km) via E Rodriguez Sr. Ave and España Blvd"
+            android:textSize="12sp"
+            android:typeface="sans"
+            app:fontFamily="serif" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/Back3"
+            android:layout_width="0dp"
+            android:layout_height="37dp"
+
+            android:layout_weight="1"
+            android:text="Back" />
+
+        <Button
+            android:id="@+id/Next3"
+            android:layout_width="0dp"
+            android:layout_height="37dp"
+            android:layout_weight="1"
+            android:text="Next" />
+    </LinearLayout>
+
+
+</LinearLayout>
