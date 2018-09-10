@@ -9,7 +9,9 @@
 
     <ImageView
         android:id="@+id/SM"
-        android:layout_height="312dp"
+        android:layout_width="387dp"
+        android:layout_height="313dp"
+        android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:adjustViewBounds="true"
@@ -65,23 +67,13 @@
     <TextView
         android:id="@+id/Label3"
         android:layout_width="77dp"
-        android:layout_height="36dp"
-        android:layout_marginBottom="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginRight="8dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
+        android:layout_height="33dp"
         android:layout_weight="1"
         android:gravity="center"
         android:text="Location:"
         app:fontFamily="casual"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.026"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Title2"
-        app:layout_constraintVertical_bias="0.0" />
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="368dp" />
 
     <TextView
         android:id="@+id/Distance2"
@@ -111,7 +103,7 @@
 
     <TextView
         android:id="@+id/Label4"
-        android:layout_width="87dp"
+        android:layout_width="93dp"
         android:layout_height="43dp"
         android:layout_marginBottom="8dp"
         android:layout_marginEnd="8dp"
@@ -135,7 +127,7 @@
         android:id="@+id/back2"
         android:layout_width="74dp"
         android:layout_height="37dp"
-        android:layout_below="@+id/distance_text"
+        android:layout_below="@+id/Distance2"
 
         android:layout_marginBottom="12dp"
         android:layout_marginEnd="12dp"
@@ -157,7 +149,7 @@
         android:id="@+id/next2"
         android:layout_width="74dp"
         android:layout_height="37dp"
-        android:layout_below="@+id/distance_text"
+        android:layout_below="@+id/Distance2"
         android:layout_marginBottom="12dp"
         android:layout_marginEnd="12dp"
         android:layout_marginLeft="12dp"

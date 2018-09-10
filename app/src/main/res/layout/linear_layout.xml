@@ -16,7 +16,7 @@
     <ImageView
         android:id="@+id/Hospital"
         android:layout_width="match_parent"
-        android:layout_height="288dp"
+        android:layout_height="308dp"
         android:adjustViewBounds="true"
         android:contentDescription="St. Luke's Hospital"
         android:scaleType="fitXY"

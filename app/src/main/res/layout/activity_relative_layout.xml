@@ -9,14 +9,15 @@
     <ImageView
         android:id="@+id/Fishermall"
         android:layout_width="match_parent"
-        android:layout_height="288dp"
+        android:layout_height="321dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_marginTop="0dp"
         android:adjustViewBounds="true"
         android:contentDescription="Fisher Mall"
         android:scaleType="fitXY"
-        app:srcCompat="@drawable/fish" />
+        app:srcCompat="@drawable/fish"
+        android:layout_alignParentLeft="true" />
 
     <TextView
         android:id="@+id/Title2"
@@ -39,7 +40,8 @@
         android:text="Quezon Ave, Quezon City, Metro Manila"
         android:textSize="12sp"
         android:typeface="sans"
-        app:fontFamily="casual" />
+        app:fontFamily="casual"
+        android:layout_alignParentRight="true" />
 
     <TextView
         android:id="@+id/Label"
@@ -51,7 +53,8 @@
         android:gravity="center"
         android:text="Location:"
         android:typeface="sans"
-        tools:fontFamily="casual" />
+        tools:fontFamily="casual"
+        android:layout_alignRight="@+id/back" />
 
     <TextView
         android:id="@+id/Distance"
@@ -62,7 +65,8 @@
         android:gravity="center"
         android:text="15 min (4.9 km) via Quezon Ave/R-7"
         android:textSize="12sp"
-        android:typeface="sans" />
+        android:typeface="sans"
+        android:layout_alignParentRight="true" />
 
     <TextView
         android:id="@+id/Label3"
@@ -76,7 +80,9 @@
         android:text="Distance from UST:"
         android:typeface="sans"
         app:fontFamily="casual"
-        tools:fontFamily="casual" />
+        tools:fontFamily="casual"
+        android:layout_alignLeft="@+id/back"
+        android:layout_marginLeft="0dp" />
 
     <Button
         android:id="@+id/next"
@@ -85,7 +91,9 @@
         android:layout_alignParentEnd="true"
         android:layout_alignTop="@+id/back"
         android:layout_marginEnd="18dp"
-        android:text="Next" />
+        android:text="Next"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="18dp" />
 
     <Button
         android:id="@+id/back"
@@ -95,6 +103,8 @@
         android:layout_alignParentStart="true"
         android:layout_marginBottom="13dp"
         android:layout_marginStart="13dp"
-        android:text="Back" />
+        android:text="Back"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="13dp" />
 
 </RelativeLayout>
