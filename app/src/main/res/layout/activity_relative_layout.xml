@@ -9,22 +9,23 @@
     <ImageView
         android:id="@+id/Fishermall"
         android:layout_width="match_parent"
-        android:layout_height="321dp"
+        android:layout_height="338dp"
+        android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_marginTop="0dp"
         android:adjustViewBounds="true"
         android:contentDescription="Fisher Mall"
         android:scaleType="fitXY"
-        app:srcCompat="@drawable/fish"
-        android:layout_alignParentLeft="true" />
+        app:srcCompat="@drawable/fish" />
 
     <TextView
         android:id="@+id/Title2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_above="@+id/Label"
+        android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
+        android:layout_marginBottom="195dp"
         android:text="Fisher Mall"
         android:textSize="24sp"
         android:typeface="sans"
